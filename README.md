@@ -1,5 +1,5 @@
 # Password Generator CLI
-This is a simple password generator CLI created using Node JS
+Command line password generator created using Node JS
 
 ## Usage
 
@@ -14,3 +14,8 @@ To run the application
 ```
 node index.js <options>
 ```
+## Options
+| Alias | Long form | Description        |
+|-------|-----------|--------------------|
+|-h     | --help    | shows the help page|
+|-l     | --length  | sets the length of the password|

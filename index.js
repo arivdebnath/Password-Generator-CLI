@@ -1,4 +1,5 @@
 const createPassword = require('./utils/createPassword');
+const savePassword = require('./utils/savePassword');
 const program = require('commander');
 const chalk = require('chalk');
 const clip = require('clipboardy');
@@ -15,6 +16,10 @@ program
 const {length, save, number, symbol} = program.opts();
 
 const generatedPassword = createPassword(length, number, symbol);
+
+if(save){
+    savePassword(generatedPassword);
+}
 
 clip.writeSync(generatedPassword);
 

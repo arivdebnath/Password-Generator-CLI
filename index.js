@@ -1,4 +1,4 @@
-#!/user/bin/env node
+#!/usr/bin/env node
 const createPassword = require('./utils/createPassword');
 const savePassword = require('./utils/savePassword');
 const program = require('commander');

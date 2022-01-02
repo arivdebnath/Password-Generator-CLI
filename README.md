@@ -22,3 +22,12 @@ node index.js <options>
 |-s     | --save    | saves the password in passwords.txt |
 |-nn    | --no-number| no numbers are included in the password|
 |-ns    | --no-symbol| no symbols are included in the password|
+
+## Creating a Symlink
+```
+npm link
+```
+After creating a symlink the application can be used globally using:
+```
+passgen [options]
+```

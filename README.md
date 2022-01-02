@@ -19,3 +19,6 @@ node index.js <options>
 |-------|-----------|--------------------|
 |-h     | --help    | shows the help page|
 |-l     | --length  | sets the length of the password|
+|-s     | --save    | saves the password in passwords.txt |
+|-nn    | --no-number| no numbers are included in the password|
+|-ns    | --no-symbol| no symbols are included in the password|

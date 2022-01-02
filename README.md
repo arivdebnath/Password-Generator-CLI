@@ -27,16 +27,16 @@ node index.js <options>
 
 ### Creating a Symlink
 ```
-npm link
+> npm link
 ```
 After creating a symlink the application can be used globally using:
 ```
-passgen [options]
+> passgen [options]
 ```
 
 ### Example 
 ```
-passgen -l 12 
+> passgen -l 12 
 ```
 ### Output
 ```
@@ -47,7 +47,7 @@ The generated password is automatically copied to the clipboard of the system
 
 ### To remove the symlink
 ```
-npm unlink
+> npm unlink
 ```
 ### Saving the generated passwords
 When the `-s` or `--save` option is used, the generated passwords are saved in a file named `passwords.txt` which is available in the application directory. If the file `passwords.txt` is not available in the said location, then it is automatically generated when the `-s` option is used.

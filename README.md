@@ -1,5 +1,5 @@
 # Password Generator CLI
-Command line password generator created using Node JS
+Command line password generator created using Node.js.
 
 ## Installation
 
